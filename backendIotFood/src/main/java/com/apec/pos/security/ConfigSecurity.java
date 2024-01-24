@@ -69,6 +69,7 @@ public class ConfigSecurity {
         corsConfig.addAllowedOrigin("https://admin.food.labtlu.shop");
         corsConfig.addAllowedOrigin("http://14.225.206.173:8081");
         corsConfig.addAllowedOrigin("http://localhost:3000");
+         corsConfig.addAllowedOrigin("http://192.168.163.128:3000");
         corsConfig.addAllowedOrigin("http://localhost:3001");
 
         corsConfig.addAllowedHeader("*");
