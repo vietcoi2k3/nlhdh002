@@ -41,6 +41,7 @@ public class SocketConfig implements WebSocketMessageBrokerConfigurer {
                 "http://127.0.0.1:5500",
                 "https://thangdev.online",
                 "http://127.0.0.1:5500",
+                    "http://192.168.163.128:3000",
                         "http://localhost:3000",
                         "http://localhost:3001",
                     "https://food.labtlu.shop/",
