@@ -43,6 +43,8 @@ public class SocketConfig implements WebSocketMessageBrokerConfigurer {
                 "http://127.0.0.1:5500",
                     "http://192.168.163.128:3000",
                         "http://localhost:3000",
+            "http://14.225.204.101:3000",
+            "http://14.225.204.101:3001",
                         "http://localhost:3001",
                     "https://food.labtlu.shop/",
                         "https://admin.food.labtlu.shop/",
