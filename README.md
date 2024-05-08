@@ -1,4 +1,4 @@
-Hướng dẫn dùng trang ADMIN
+Hướng dẫn dùng trang ADMIN\n
 Đăng nhập bằng tk admin:
 username: ADMIN
 password : @ADMIN@
