@@ -75,6 +75,10 @@ public class ConfigSecurity {
         corsConfig.addAllowedOrigin("http://128.199.208.76:3002");
         corsConfig.addAllowedOrigin("http://128.199.208.76:3000");
 
+        corsConfig.addAllowedOrigin("http://152.42.180.200:3001");
+        corsConfig.addAllowedOrigin("http://152.42.180.200:3002");
+        corsConfig.addAllowedOrigin("http://152.42.180.200:3000");
+
         corsConfig.addAllowedHeader("*");
         corsConfig.addAllowedMethod("*");
         corsConfig.setAllowCredentials(true);
