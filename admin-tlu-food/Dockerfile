@@ -8,6 +8,8 @@ COPY package*.json /app
 WORKDIR /app
 # 3 . Install dependencies
 RUN npm install && yarn install
+RUN npm install @chakra-ui/icon @chakra-ui/react-context @chakra-ui/shared-utils @chakra-ui/popper
+RUN npx update-browserslist-db@latest
 # 4. Copy the source code to /app dir
 COPY . .
 # 5. Expose port 3001 on the container
