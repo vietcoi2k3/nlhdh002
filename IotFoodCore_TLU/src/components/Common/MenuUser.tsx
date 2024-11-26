@@ -33,7 +33,7 @@ export function MenuUser(props: MenuUserProps) {
   }
   const handleAdmin = () => {
     handleClose()
-    window.open("http://localhost:3001","_blank")
+    window.open("http://152.42.180.200:3001","_blank")
   }
   const handleOrders = () => {
     handleClose()
