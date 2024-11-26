@@ -71,6 +71,9 @@ public class ConfigSecurity {
         corsConfig.addAllowedOrigin("http://localhost:3000");
          corsConfig.addAllowedOrigin("http://192.168.163.128:3000");
         corsConfig.addAllowedOrigin("http://localhost:3001");
+        corsConfig.addAllowedOrigin("http://128.199.208.76:3001");
+        corsConfig.addAllowedOrigin("http://128.199.208.76:3002");
+        corsConfig.addAllowedOrigin("http://128.199.208.76:3000");
 
         corsConfig.addAllowedHeader("*");
         corsConfig.addAllowedMethod("*");
